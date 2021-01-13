@@ -44,7 +44,7 @@ context('Cadastro', () => {
         cy.get('input#secondpassword').type('Agilizei@2020');
 
         // attachFile -> input file
-        cy.get('input#imagesrc').attachFile('testes.png');
+        cy.get('input#imagesrc').attachFile('imagem.png');
 
         // Click
         cy.get('button#submitbtn').click();
